@@ -37,8 +37,9 @@
   padding: 1rem;
   margin-top: 2rem;
 
-  background-color: #6092e9;
-  border-top: 1px solid #ccc;
+  background-color: #ccc;
+  border-top: 1px solid #6092e9;
+  border-radius: 0.5rem;
 
   font-size: 0.9rem;
   color: #555;
