@@ -1,4 +1,5 @@
-export const projects=[{
+export const projects=[
+{
   id: 1,
   name: "Portrait",
   description: "This code creates a portrait of what I consider a celebrity, the Labubu doll. Canvas 400x400, shapes including Circle, Ellipse, Triangle, Rectangle, and Arc, and downloads a png when key 'd' is pressed. p5.js Reference utilized as a resource for the shapes used in code, this is something I will continue to use in future challenges.",
