@@ -1,10 +1,10 @@
-import ProjectList from "../components/ProjectList";
+import Projects from "../components/Projects";
 
 function ProjectsPage() {
     return (
         <div>
             <h1>Projects</h1>
-            <ProjectList />
+            <Projects />
             <p>This is the Projects page of our application.</p>
         </div>
     )

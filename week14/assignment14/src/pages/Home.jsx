@@ -1,10 +1,10 @@
-import ProjectList from "../components/ProjectList.jsx";
+import Projects from "../components/Projects.jsx";
 
 function Home() {
   return (
     <div>
      <h1>Welcome to the Home Page!</h1>
-     <ProjectList limit={2}/>
+     <Projects limit={4}/>
     </div>
   );
 }

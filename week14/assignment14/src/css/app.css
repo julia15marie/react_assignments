@@ -49,7 +49,7 @@
   font-weight: 600;
   margin: 0.5rem 0;
   font: Helvetica, Arial, sans-serif; /* Clean, modern font */
-  color: #8B0000; /* Highlight color */
+  color: #000000; /* Highlight color */
 }
 
 /* Author text */
@@ -121,7 +121,30 @@
   }
 }
 
+/* ────────────── NAVBAR FULL WIDTH ────────────── */
 .navbar {
-  background: #000000;
-  color: #e0e0e0;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: right;
+  padding: 1rem 2rem;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #f7adc2;
+  border-radius: 0;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
 }
