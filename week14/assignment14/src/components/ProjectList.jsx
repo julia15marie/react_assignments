@@ -1,10 +1,12 @@
 import ProjectCard from "./ProjectCard.jsx";
 import { projects } from "../data/projects.js";
 
-function ProjectList() {
-    return (
+function ProjectList({limit}) {
+  const displayed = limit ? projects.slice(0, limit) : projects;
+
+  return (
     <div className="projects-grid">
-    {projects.map((project) => (
+    {displayed.map((project) => (
      <ProjectCard 
         key={project.id} 
         name={project.name} 

@@ -120,3 +120,8 @@
     padding: 0.75rem; /* Slightly tighter layout */
   }
 }
+
+.navbar {
+  background: #000000;
+  color: #e0e0e0;
+}
